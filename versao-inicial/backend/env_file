@@ -1,3 +1,11 @@
 module.exports = {
-    authSecret: ''
+    authSecret: '',
+    db: {
+      database: '',
+      user:     '',
+      password: ''
+    },
+    mongo: {
+        url: ''
+    }
 }
